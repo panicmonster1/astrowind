@@ -23,7 +23,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   output: 'static',
-    server: { port: 80 },
+    server: { port: 443 },
   
   integrations: [
     tailwind({
